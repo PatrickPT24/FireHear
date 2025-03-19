@@ -5,35 +5,16 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F6EFEF"
     tools:context=".fragments.guitarActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="421dp"
-        android:layout_height="918dp"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.551"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.454">
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            app:cardCornerRadius="50dp"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="340dp"
-            tools:layout_editor_absoluteY="23dp">
-
-            <ImageView
-                android:layout_width="52dp"
-                android:layout_height="match_parent"
-                android:layout_toEndOf="@id/textView"
-                android:src="@drawable/company_app_logo">
-
-            </ImageView>
-        </androidx.cardview.widget.CardView>
+        app:layout_constraintVertical_bias="0.005">
 
         <TextView
             android:id="@+id/textView"
@@ -41,7 +22,6 @@
             android:layout_height="37dp"
             android:text="GUITAR"
             android:textAlignment="center"
-            android:textColor="#685E5E"
             android:textSize="28dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -52,7 +32,7 @@
             app:layout_constraintVertical_bias="0.04" />
 
         <ImageView
-            android:id="@+id/imageView1"
+            android:id="@+id/imageView"
             android:layout_width="94dp"
             android:layout_height="77dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -64,7 +44,7 @@
             app:srcCompat="@drawable/" />
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/imageView"
             android:layout_width="94dp"
             android:layout_height="77dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -75,6 +55,17 @@
             app:layout_constraintVertical_bias="0.08"
             app:srcCompat="@drawable/guitar_playing" />
 
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="105dp"
+            android:layout_height="55dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.913"
+            app:layout_constraintStart_toEndOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.023"
+            app:srcCompat="@drawable/company_app_logo" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
